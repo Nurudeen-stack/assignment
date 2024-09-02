@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h4 {
+        
+        text-align: center;
+        background-color: green;
+        
+      }  
+      p {text-align:center;}
+      
+      </style> 
+  </head>
+  <body>
+    <h4>My first webpage</h4>
+    <a href="#webpage-content">Webpage Content</a>
+
+    <a href="#information-table">Informatiom Table</a>
+
+    <a href="#contact-form">Contact Form</a>
+    <br />
+    <img src="/images/sunclass.jpeg" width="400" height="200" />
+    <p>
+      This is a sample paragraph describing the content of the webpage it
+      explains the pirpose of the page and provides some basic information about
+      what users can expect to find
+    </p>
+    <a href="https://www.techyjaunt.com/">Visit Techjaunt</a>
+    <div id="webpage-content">
+      <h3>Webpage Contents</h3>
+      <div>
+      <li>
+        <ul>Introduction</ul>
+        <ul> Table of Information</ul>
+        <ul> Contact Form</ul>
+      </li>
+      </div>
+    </div>
+    <div id="information-table">
+      <h3>Information Table</h3>
+      <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pens</td>
+            <td>Blue Ink Pen</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Notebooks</td>
+            <td>Spiral-bound books</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Markers</td>
+            <td>Permanent Markers</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="contact-form">
+      <h3>Contact Form</h3>
+
+      <form>
+        <div>
+        <label>Name</label>
+        <input type="text" />
+        </div>
+        <br />
+        <div>
+        <label>Email</label>
+        <input type="email" />
+        </div>
+        <br />
+        <div>
+        <label>Password</label>
+        <input type="Password" />
+        </div>
+        <br />
+        <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male" /> Male
+        <input type="radio" name="gender" value="female" /> Female
+        </div>
+        <br />
+        <div>
+        <label>Subscribe</label>
+        <input type="Checkbox" name="subscribe" value="subscribe" />Yes I want to subscribe
+        </div>
+        <br />
+        <div>
+        <label>Number of items</label>
+        <input type="number" />
+        </div>
+        <br />
+        <label>Date</label>
+        <input type="date" />
+        <br />
+        <p>Message</p>
+        <textarea
+          name="comments"
+          rows="4"
+          cols="50"
+          placeholder="Enter your comments"
+        ></textarea>
+        <br />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
